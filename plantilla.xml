@@ -15,11 +15,10 @@
                 </editor>
             </titleStmt>
             <editionStmt>
-                <p>Edición digital de las Actas Capitulres (<date>2023-2026</date>)</p>
+                <p>Edición digital de las Actas Capitulres (<date>2023</date>)</p>
             </editionStmt>
             <publicationStmt>
                 <publisher>Oficina del Historiador de la Ciudad de la Habana</publisher>
-                <pubPlace>Berlín</pubPlace>
                 <pubPlace>La Habana</pubPlace>
                 <availability status="free">
                     <licence target="http://creativecommons.org/licenses/by/4.0/">Creative Commons
@@ -47,6 +46,7 @@
             <creation>
                 <orgName>Gobierno de La Habana</orgName>
                 <placeName>La Habana</placeName>
+                <date></date>
             </creation>
             <langUsage>
                 <language ident="es">Español</language>
@@ -54,9 +54,6 @@
             <abstract xml:lang="es">
                 <p>[Introducir datos]</p>
             </abstract>
-            <textClass>
-                <catRef/>
-            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
@@ -64,6 +61,7 @@
             <div>
                 <pb/>
                 <p>[Editar texto aquí]</p>
+                
             </div>
         </body>
     </text>
