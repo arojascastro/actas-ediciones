@@ -5,7 +5,7 @@
          xmlns="http://relaxng.org/ns/structure/1.0"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2023-11-17T15:47:11Z. .
+Schema generated from ODD source 2023-11-17T15:58:05Z. .
 TEI Edition: Version 4.6.0. Last updated on
         4th April 2023, revision f18deffba
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.6.0/
@@ -2246,7 +2246,6 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
          <ref name="tei_model.lLike"/>
          <ref name="tei_model.pLike"/>
          <ref name="tei_lg"/>
-         <ref name="tei_sp"/>
       </choice>
    </define>
    <define name="tei_model.placeNamePart">
@@ -3980,41 +3979,6 @@ relatedItem element must be empty</sch:report>
          <ref name="tei_att.divLike.attributes"/>
          <ref name="tei_att.typed.attributes"/>
          <ref name="tei_att.declaring.attributes"/>
-         <empty/>
-      </element>
-   </define>
-   <define name="tei_sp">
-      <element name="sp">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(discurso) Un discurso individual de un texto dramático, o un pasaje en prosa o en verso presentado como tal. [3.13.2. Core Tags for Drama 3.13. Passages of Verse or Drama 7.2.2. Speeches and Speakers]</a:documentation>
-         <group>
-      
-      
-        
-            <zeroOrMore>
-               <ref name="tei_model.global"/>
-            </zeroOrMore>
-      
-            <oneOrMore>
-               <group>
-                  <choice>
-                     <ref name="tei_lg"/>
-                     <ref name="tei_model.lLike"/>
-                     <ref name="tei_model.pLike"/>
-                     <ref name="tei_model.listLike"/>
-                     <ref name="tei_model.stageLike"/>
-                     <ref name="tei_model.attributable"/>
-                  </choice>
-                  <choice>
-                     <zeroOrMore>
-                        <ref name="tei_model.global"/>
-                     </zeroOrMore>
-                     <ref name="tei_q"/>
-                  </choice>
-               </group>
-            </oneOrMore>
-         </group>
-         <ref name="tei_att.global.attributes"/>
-         <ref name="tei_att.ascribed.directed.attributes"/>
          <empty/>
       </element>
    </define>

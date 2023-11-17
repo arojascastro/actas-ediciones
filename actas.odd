@@ -18,7 +18,7 @@
       <sourceDesc>
         <bibl>ODD basada en TEI U5 y <ref target="https://www.ediarum.org/docs/ediarum.BASE.manual/index.html"/>ediarum.BASE.manual</bibl>
       </sourceDesc>
-    </fileDesc><encodingDesc><appInfo><application ident="RomaJS" version="1.0.0" when="2023-09-05T10:04:28.906Z"><desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc></application></appInfo><appInfo><application ident="RomaJS" version="1.0.0" when="2023-11-17T15:46:55.220Z"><desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc></application></appInfo></encodingDesc>
+    </fileDesc><encodingDesc><appInfo><application ident="RomaJS" version="1.0.0" when="2023-09-05T10:04:28.906Z"><desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc></application></appInfo><appInfo><application ident="RomaJS" version="1.0.0" when="2023-11-17T15:57:53.562Z"><desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc></application></appInfo></encodingDesc>
   </teiHeader>
   <text>
     <body>
@@ -26,7 +26,7 @@
 
         <!-- modules -->
         <moduleRef key="tei"/>
-        <moduleRef key="core" include="abbr add choice cit corr date del editor emph expan foreign gap graphic head hi item l label lb lg list mentioned milestone note orig p pb pubPlace publisher q ref reg relatedItem resp respStmt sic sp title unclear quote"/>
+        <moduleRef key="core" include="abbr add choice cit corr date del editor emph expan foreign gap graphic head hi item l label lb lg list mentioned milestone note orig p pb pubPlace publisher q ref reg relatedItem resp respStmt sic title unclear quote"/>
         <moduleRef key="header" include="availability catDesc catRef category creation edition editionStmt fileDesc idno langUsage language licence notesStmt profileDesc publicationStmt sourceDesc teiHeader titleStmt abstract"/>
         <moduleRef key="textstructure" include="TEI body byline closer dateline div opener postscript salute signed text"/>
         <moduleRef key="figures" include="cell figure figDesc row table"/>
