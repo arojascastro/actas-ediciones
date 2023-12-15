@@ -18,7 +18,7 @@
       <sourceDesc>
         <bibl>ODD basada en TEI U5 y <ref target="https://www.ediarum.org/docs/ediarum.BASE.manual/index.html"/>ediarum.BASE.manual</bibl>
       </sourceDesc>
-    </fileDesc><encodingDesc><appInfo><application ident="RomaJS" version="1.0.0" when="2023-09-05T10:04:28.906Z"><desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc></application></appInfo><appInfo><application ident="RomaJS" version="1.0.0" when="2023-11-17T15:57:53.562Z"><desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc></application></appInfo></encodingDesc>
+    </fileDesc><encodingDesc><appInfo><application ident="RomaJS" version="1.0.0" when="2023-09-05T10:04:28.906Z"><desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc></application></appInfo><appInfo><application ident="RomaJS" version="1.0.0" when="2023-11-17T15:57:53.562Z"><desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc></application></appInfo><appInfo><application ident="RomaJS" version="1.0.0" when="2023-11-17T16:10:50.680Z"><desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc></application></appInfo></encodingDesc>
   </teiHeader>
   <text>
     <body>
@@ -217,7 +217,7 @@
             <attDef ident="quantity" usage="req" mode="change"/>
           </attList>
         </elementSpec>
-        <elementSpec ident="g" mode="delete"/>
+        
         <!--<elementSpec ident="row" mode="change">
           <attList>
             <attDef ident="role" mode="change" usage="opt">
@@ -354,7 +354,7 @@
         </elementSpec>
         <elementSpec ident="rs" mode="delete"/>
 
-      </schemaSpec>
+      <moduleRef key="gaiji" include="g"/></schemaSpec>
     </body>
   </text>
 </TEI>
